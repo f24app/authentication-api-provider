@@ -1,0 +1,26 @@
+{
+    "name": "soampliapps/authentication-api-provider",
+    "type": "library",
+    "description": "API Provider for SoampliApps Authentication component",
+    "keywords": [
+        "authentication",
+        "api",
+        "provider"
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "soampliapps/authentication": ">=1.0.0"
+    },
+    "authors": [
+        {
+            "name": "IDS",
+            "email": "waseemids369@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SoampliApps\\Authentication": "src"
+        }
+    }
+}
